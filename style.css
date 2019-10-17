@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    background-color: rgb(13, 82, 114);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: block;
+    align-items:center;
+    width: 100vh;
+}
+
+img {
+    height: 100vh;
+}
+
+#wordInput {
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#letters {
+    letter-spacing: .3rem;
+}
+
+#letterInput {
+    width: 10%;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#restart{
+    width: 10%;
+    height: 10%;
+}
+
+.playBtnClass {
+    border-color: royalblue;
+    color: rgb(23, 150, 112);
+    padding: 5px;
+
+}

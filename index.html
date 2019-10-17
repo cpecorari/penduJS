@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Le Pendu</h1>
+    <div id="input">
+      <input id="wordInput" type="text" placeholder="Player one, enter your word here">
+      <button id="playBtn" class="playBtnClass">Let's Play !</button>
+    </div>
+
+    <div id="playing">
+      <input id="letterInput" type="text" maxlength=1 placeholder="Player two, enter your letter here">
+      <button id="letterBtn" class="playBtnClass">Let's try it !</button>
+    </div>
+
+    <p id="letters"></p>
+
+    <p id="ppoints">Nombre de points : <span id="points">10</span></p>
+
+    <h1 id="winlose">You win !</h1>
+    <img id="restart" src="icon.png">
+    
+    <script src="script.js"></script>
+  </body>
+</html>
